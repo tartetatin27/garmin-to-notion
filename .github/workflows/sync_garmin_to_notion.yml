@@ -6,7 +6,7 @@ on:
     # - cron: '*/10 10-23 * * *'  # Every 15 minutes from 10:00 to 23:45 UTC 
     # - cron: '*/10 0-3 * * *'    # Every 15 minutes from 00:00 to 03:45 UTC
     # - cron: '0 1 * * *' # Daily
-      - cron: '*/30 09-19 * * *'  # Every 30 minutes from 09:00 to 19:00 UTC 
+      - cron: '*/30 07-17 * * *'  # Every 30 minutes from 07:00 to 17:00 UTC (Paris = UTC+2 en été et UTC+1 en hiver)
   workflow_dispatch:
 env:
   TZ: 'Europe/Paris'
