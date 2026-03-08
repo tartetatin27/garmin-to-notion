@@ -1,7 +1,10 @@
 name: Sync Garmin to Notion
 
 on:
-- cron: '0 1 * * *' # Daily
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # Daily      
   workflow_dispatch:
 env:
   TZ: 'Europe/Paris'
